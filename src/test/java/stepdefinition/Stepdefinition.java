@@ -105,12 +105,12 @@ public class Stepdefinition extends Base {
 			File scrFile=scrshot.getScreenshotAs(OutputType.FILE);
 			
 			File destFile=new File(fileWithPath);
-		try {
-			FileUtils.copyFile(scrFile,destFile);
-		}
-			catch(IOException e) {
-				e.printStackTrace();
-			}
+//		try {
+//			FileUtils.copyFile(scrFile,destFile);
+//		}
+//			catch(IOException e) {
+//				e.printStackTrace();
+//			}
 			}}}
 		
 		
